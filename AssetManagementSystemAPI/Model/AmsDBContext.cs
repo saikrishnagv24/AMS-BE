@@ -20,5 +20,6 @@ namespace AssetManagementSystemAPI.Model
         public DbSet<Register> Register { get; set; }
 
         public DbSet<Department> Department { get; set; }
+        public DbSet<AssetType> AssetType { get; set; }
     }
 }

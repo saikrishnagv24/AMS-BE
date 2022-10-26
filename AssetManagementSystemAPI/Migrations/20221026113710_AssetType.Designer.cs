@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221026113710_AssetType")]
+    partial class AssetType
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,12 +31,6 @@ namespace AssetManagementSystemAPI.Migrations
                     b.Property<string>("AssetTypeName")
                         .HasMaxLength(220)
                         .HasColumnType("nvarchar(220)");
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
 
                     b.HasKey("Id");
 
