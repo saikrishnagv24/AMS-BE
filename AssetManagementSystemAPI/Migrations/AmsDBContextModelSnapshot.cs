@@ -19,6 +19,32 @@ namespace AssetManagementSystemAPI.Migrations
                 .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("AssetManagementSystemAPI.Model.Department", b =>
+                {
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("DeleteStatus")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("DepartmentName")
+                        .HasMaxLength(220)
+                        .HasColumnType("nvarchar(220)");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(220)
+                        .HasColumnType("nvarchar(220)");
+
+                    b.HasKey("id");
+
+                    b.ToTable("Department");
+                });
+
             modelBuilder.Entity("AssetManagementSystemAPI.Model.Register", b =>
                 {
                     b.Property<int>("Id")

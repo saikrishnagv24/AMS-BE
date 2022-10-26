@@ -18,5 +18,7 @@ namespace AssetManagementSystemAPI.Model
         }
 
         public DbSet<Register> Register { get; set; }
+
+        public DbSet<Department> Department { get; set; }
     }
 }
