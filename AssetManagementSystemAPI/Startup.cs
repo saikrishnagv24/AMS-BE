@@ -1,10 +1,14 @@
 
 using AssetManagementSystemAPI.Interfaces.AssetTypeInterface;
+using AssetManagementSystemAPI.Interfaces.CpuInterface;
 using AssetManagementSystemAPI.Interfaces.LoginInterface;
+using AssetManagementSystemAPI.Interfaces.RamTypeInterface;
 using AssetManagementSystemAPI.Interfaces.RegisterInterface;
 using AssetManagementSystemAPI.Model;
 using AssetManagementSystemAPI.Services.AssetTypeServices;
+using AssetManagementSystemAPI.Services.CpuTypeServices;
 using AssetManagementSystemAPI.Services.LoginServices;
+using AssetManagementSystemAPI.Services.RamTypeService;
 using AssetManagementSystemAPI.Services.RegisterServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
@@ -58,7 +62,8 @@ namespace AssetManagementSystemAPI
             services.AddScoped<IRegisterInterface, RegisterService>();
             services.AddScoped<IloginInterface, LoginService>();
             services.AddScoped<IAssetTypeInterface, AssetTypeService>();
-
+            services.AddScoped<ICpuTypeInterface, CpuTypeService>();
+            services.AddScoped<IRamTypeInterface, RamTypeService>();
 
 
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
