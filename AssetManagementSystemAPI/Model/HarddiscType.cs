@@ -1,18 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AssetManagementSystemAPI.Model
 {
-    public class AssetType
+    public class HarddiscType
     {
         [Key]
         public int Id { get; set; }
 
         [StringLength(220)]
-        public string AssetTypeName { get; set; }
+        public string HarddiscTypeName { get; set; }
 
         public bool status { get; set; }
         public DateTime CreateDate { get; set; }
-        public string HarddiscTypeName { get; internal set; }
     }
 }

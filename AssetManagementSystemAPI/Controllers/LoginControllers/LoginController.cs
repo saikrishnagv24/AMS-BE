@@ -28,7 +28,7 @@ namespace AssetManagementSystemAPI.Controllers.LoginController
 
         [HttpPost]
         [Route("LoginData")]
-        public IActionResult Post(LoginDTO login)
+        public IActionResult Post([FromBody] LoginDTO login)
         {
             var userData = loginInterface.Login(login);
             //return data;
@@ -54,7 +54,8 @@ namespace AssetManagementSystemAPI.Controllers.LoginController
                 return Ok(new { token = tokenHandler.WriteToken(token), name = userData.Name });
             }
             return BadRequest("Invalid User");
-            //return Ok("Invalid User");
+
+            return Ok("Invalid User");
         }
     }
 }

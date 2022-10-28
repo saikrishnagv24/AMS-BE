@@ -135,3 +135,137 @@ D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\refint\Asset
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.pdb
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.genruntimeconfig.cache
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\ref\AssetManagementSystemAPI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.json
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.exe
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.deps.json
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.runtimeconfig.json
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.runtimeconfig.dev.json
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\ref\AssetManagementSystemAPI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Humanizer.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.AssemblyReference.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.AssemblyInfoInputs.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.AssemblyInfo.cs
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.CoreCompileInputs.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\staticwebassets\AssetManagementSystemAPI.StaticWebAssets.Manifest.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\staticwebassets\AssetManagementSystemAPI.StaticWebAssets.xml
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\scopedcss\bundle\AssetManagementSystemAPI.styles.css
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.RazorTargetAssemblyInfo.cache
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.CopyComplete
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\ref\AssetManagementSystemAPI.dll
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.pdb
+D:\Sample project\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.genruntimeconfig.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.Development.json
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.json
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.exe
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.deps.json
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.runtimeconfig.json
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.runtimeconfig.dev.json
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\ref\AssetManagementSystemAPI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Humanizer.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.AssemblyReference.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.AssemblyInfoInputs.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.AssemblyInfo.cs
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.CoreCompileInputs.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\staticwebassets\AssetManagementSystemAPI.StaticWebAssets.Manifest.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\staticwebassets\AssetManagementSystemAPI.StaticWebAssets.xml
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\scopedcss\bundle\AssetManagementSystemAPI.styles.css
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.RazorTargetAssemblyInfo.cache
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.CopyComplete
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\ref\AssetManagementSystemAPI.dll
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.pdb
+D:\AsesetManagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.genruntimeconfig.cache

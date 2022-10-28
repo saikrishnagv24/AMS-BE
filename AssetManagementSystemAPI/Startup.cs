@@ -1,9 +1,11 @@
 
 using AssetManagementSystemAPI.Interfaces.AssetTypeInterface;
+using AssetManagementSystemAPI.Interfaces.HarddiscInterface;
 using AssetManagementSystemAPI.Interfaces.LoginInterface;
 using AssetManagementSystemAPI.Interfaces.RegisterInterface;
 using AssetManagementSystemAPI.Model;
 using AssetManagementSystemAPI.Services.AssetTypeServices;
+using AssetManagementSystemAPI.Services.HarddiscServices;
 using AssetManagementSystemAPI.Services.LoginServices;
 using AssetManagementSystemAPI.Services.RegisterServices;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -58,6 +60,8 @@ namespace AssetManagementSystemAPI
             services.AddScoped<IRegisterInterface, RegisterService>();
             services.AddScoped<IloginInterface, LoginService>();
             services.AddScoped<IAssetTypeInterface, AssetTypeService>();
+            services.AddScoped<IHarddiscInterface, HarddiscService>();
+            
 
 
 
