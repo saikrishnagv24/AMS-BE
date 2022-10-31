@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221027113503_RamType")]
+    partial class RamType
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -109,28 +111,6 @@ namespace AssetManagementSystemAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("RamType");
-                });
-
-            modelBuilder.Entity("AssetManagementSystemAPI.Model.HarddiscType", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<DateTime>("CreateDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("HarddiscTypeName")
-                        .HasMaxLength(220)
-                        .HasColumnType("nvarchar(220)");
-
-                    b.Property<bool>("status")
-                        .HasColumnType("bit");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("HarddiscType");
                 });
 
             modelBuilder.Entity("AssetManagementSystemAPI.Model.Register", b =>

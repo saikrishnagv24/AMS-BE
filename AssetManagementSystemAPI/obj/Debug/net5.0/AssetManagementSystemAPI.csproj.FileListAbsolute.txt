@@ -70,7 +70,6 @@ D:\Office\Projects\AMS 23-10-2022\AssetManagementSystemAPI\AssetManagementSystem
 D:\Office\Projects\AMS 23-10-2022\AssetManagementSystemAPI\AssetManagementSystemAPI\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.AssemblyReference.cache
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.Development.json
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\appsettings.json
-D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.StaticWebAssets.xml
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.exe
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.deps.json
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\bin\Debug\net5.0\AssetManagementSystemAPI.runtimeconfig.json
@@ -131,7 +130,6 @@ D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\staticwebass
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.RazorTargetAssemblyInfo.cache
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.csproj.CopyComplete
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.dll
-D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\refint\AssetManagementSystemAPI.dll
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.pdb
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\AssetManagementSystemAPI.genruntimeconfig.cache
 D:\Assetmanagement\AMS-BE\AssetManagementSystemAPI\obj\Debug\net5.0\ref\AssetManagementSystemAPI.dll
