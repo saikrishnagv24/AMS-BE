@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace AssetManagementSystemAPI.Model
 {
-    public class AssetType
+    public class HarddiscType
     {
-        public AssetType(){
+        public HarddiscType()
+        {
             AddAssets = new HashSet<AddAsset>();
 
         }
@@ -15,12 +18,12 @@ namespace AssetManagementSystemAPI.Model
         public int Id { get; set; }
 
         [StringLength(220)]
-        public string AssetTypeName { get; set; }
+        public string HarddiscTypeName { get; set; }
 
         public bool status { get; set; }
         public DateTime CreateDate { get; set; }
 
-        [InverseProperty(nameof(AddAsset.AssetTypes))]
+        [InverseProperty(nameof(AddAsset.HarddiscTypes))]
         public virtual ICollection<AddAsset> AddAssets { get; set; }
     }
 }

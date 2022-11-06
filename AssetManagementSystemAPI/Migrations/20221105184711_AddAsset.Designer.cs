@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221105184711_AddAsset")]
+    partial class AddAsset
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,19 +38,19 @@ namespace AssetManagementSystemAPI.Migrations
                     b.Property<DateTime?>("AssetPurchaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("AssetTypeId")
+                    b.Property<int>("AssetTypeId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CpuId")
+                    b.Property<int>("CpuId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("HddId")
+                    b.Property<int>("HddId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("RamId")
+                    b.Property<int>("RamId")
                         .HasColumnType("int");
 
                     b.Property<string>("Remark")
@@ -61,12 +63,6 @@ namespace AssetManagementSystemAPI.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("AssetTypeId");
-
-                    b.HasIndex("CpuId");
-
-                    b.HasIndex("HddId");
-
-                    b.HasIndex("RamId");
 
                     b.ToTable("AddAsset");
                 });
@@ -141,6 +137,28 @@ namespace AssetManagementSystemAPI.Migrations
                     b.ToTable("Department");
                 });
 
+            modelBuilder.Entity("AssetManagementSystemAPI.Model.HarddiscType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("HarddiscTypeName")
+                        .HasMaxLength(220)
+                        .HasColumnType("nvarchar(220)");
+
+                    b.Property<bool>("status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HarddiscType");
+                });
+
             modelBuilder.Entity("AssetManagementSystemAPI.Model.RamType", b =>
                 {
                     b.Property<int>("Id")
@@ -204,45 +222,14 @@ namespace AssetManagementSystemAPI.Migrations
                 {
                     b.HasOne("AssetManagementSystemAPI.Model.AssetType", "AssetTypes")
                         .WithMany("AddAssets")
-                        .HasForeignKey("AssetTypeId");
-
-                    b.HasOne("AssetManagementSystemAPI.Model.CpuType", "CpuTypes")
-                        .WithMany("AddAssets")
-                        .HasForeignKey("CpuId");
-
-                    b.HasOne("AssetManagementSystemAPI.Model.HarddiscType", "HarddiscTypes")
-                        .WithMany("AddAssets")
-                        .HasForeignKey("HddId");
-
-                    b.HasOne("AssetManagementSystemAPI.Model.RamType", "RamTypes")
-                        .WithMany("AddAssets")
-                        .HasForeignKey("RamId");
+                        .HasForeignKey("AssetTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("AssetTypes");
-
-                    b.Navigation("CpuTypes");
-
-                    b.Navigation("HarddiscTypes");
-
-                    b.Navigation("RamTypes");
                 });
 
             modelBuilder.Entity("AssetManagementSystemAPI.Model.AssetType", b =>
-                {
-                    b.Navigation("AddAssets");
-                });
-
-            modelBuilder.Entity("AssetManagementSystemAPI.Model.CpuType", b =>
-                {
-                    b.Navigation("AddAssets");
-                });
-
-            modelBuilder.Entity("AssetManagementSystemAPI.Model.HarddiscType", b =>
-                {
-                    b.Navigation("AddAssets");
-                });
-
-            modelBuilder.Entity("AssetManagementSystemAPI.Model.RamType", b =>
                 {
                     b.Navigation("AddAssets");
                 });

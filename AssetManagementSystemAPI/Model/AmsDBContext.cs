@@ -25,5 +25,11 @@ namespace AssetManagementSystemAPI.Model
         public DbSet<CpuType> CpuType { get; set; }
 
         public DbSet<RamType> RamType { get; set; }
+
+        public DbSet<HarddiscType> HarddiscType { get; set; }
+
+        public DbSet<AddAsset> AddAsset { get; set; }
+
+        
     }
 }
