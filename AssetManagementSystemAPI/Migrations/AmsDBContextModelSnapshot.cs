@@ -185,6 +185,28 @@ namespace AssetManagementSystemAPI.Migrations
                     b.ToTable("RamType");
                 });
 
+            modelBuilder.Entity("AssetManagementSystemAPI.Model.HarddiscType", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("CreateDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("HarddiscTypeName")
+                        .HasMaxLength(220)
+                        .HasColumnType("nvarchar(220)");
+
+                    b.Property<bool>("status")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("HarddiscType");
+                });
+
             modelBuilder.Entity("AssetManagementSystemAPI.Model.Register", b =>
                 {
                     b.Property<int>("Id")
