@@ -72,12 +72,10 @@ namespace AssetManagementSystemAPI
             services.AddScoped<IRamTypeInterface, RamTypeService>();
             services.AddScoped<IDepartmentInterface, DepartmentService>();
             services.AddScoped<IHarddiscInterface, HarddiscServices>();
-<<<<<<< HEAD
+            
+            services.AddScoped<IHarddiscInterface, HarddiscServices>();
             services.AddScoped<IAddAssetInterface, AddAssetService>();
 
-=======
-            
->>>>>>> b8b047e (HarddiscType completed)
 
 
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
