@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221106145345_AddAssetForeignKeynull")]
+    partial class AddAssetForeignKeynull
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

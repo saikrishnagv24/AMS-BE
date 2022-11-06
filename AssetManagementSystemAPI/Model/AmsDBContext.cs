@@ -27,5 +27,9 @@ namespace AssetManagementSystemAPI.Model
         public DbSet<RamType> RamType { get; set; }
 
         public DbSet<HarddiscType> HarddiscType { get; set; }
+
+        public DbSet<AddAsset> AddAsset { get; set; }
+
+        
     }
 }

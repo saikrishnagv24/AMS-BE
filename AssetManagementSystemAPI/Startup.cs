@@ -1,4 +1,5 @@
 
+using AssetManagementSystemAPI.Interfaces.AddAssetInterface;
 using AssetManagementSystemAPI.Interfaces.AssetTypeInterface;
 using AssetManagementSystemAPI.Interfaces.CpuInterface;
 using AssetManagementSystemAPI.Interfaces.DepartmentInterface;
@@ -7,6 +8,7 @@ using AssetManagementSystemAPI.Interfaces.LoginInterface;
 using AssetManagementSystemAPI.Interfaces.RamTypeInterface;
 using AssetManagementSystemAPI.Interfaces.RegisterInterface;
 using AssetManagementSystemAPI.Model;
+using AssetManagementSystemAPI.Services.AddAssetServices;
 using AssetManagementSystemAPI.Services.AssetTypeServices;
 using AssetManagementSystemAPI.Services.CpuTypeServices;
 using AssetManagementSystemAPI.Services.DepartmentServices;
@@ -70,7 +72,8 @@ namespace AssetManagementSystemAPI
             services.AddScoped<IRamTypeInterface, RamTypeService>();
             services.AddScoped<IDepartmentInterface, DepartmentService>();
             services.AddScoped<IHarddiscInterface, HarddiscServices>();
-            
+            services.AddScoped<IAddAssetInterface, AddAssetService>();
+
 
 
             services.AddCors(options => options.AddPolicy("AllowAll", p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));

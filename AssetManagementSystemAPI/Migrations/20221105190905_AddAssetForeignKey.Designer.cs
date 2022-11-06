@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221105190905_AddAssetForeignKey")]
+    partial class AddAssetForeignKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -36,19 +38,19 @@ namespace AssetManagementSystemAPI.Migrations
                     b.Property<DateTime?>("AssetPurchaseDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("AssetTypeId")
+                    b.Property<int>("AssetTypeId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("CpuId")
+                    b.Property<int>("CpuId")
                         .HasColumnType("int");
 
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("HddId")
+                    b.Property<int>("HddId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("RamId")
+                    b.Property<int>("RamId")
                         .HasColumnType("int");
 
                     b.Property<string>("Remark")
@@ -226,19 +228,27 @@ namespace AssetManagementSystemAPI.Migrations
                 {
                     b.HasOne("AssetManagementSystemAPI.Model.AssetType", "AssetTypes")
                         .WithMany("AddAssets")
-                        .HasForeignKey("AssetTypeId");
+                        .HasForeignKey("AssetTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AssetManagementSystemAPI.Model.CpuType", "CpuTypes")
                         .WithMany("AddAssets")
-                        .HasForeignKey("CpuId");
+                        .HasForeignKey("CpuId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AssetManagementSystemAPI.Model.HarddiscType", "HarddiscTypes")
                         .WithMany("AddAssets")
-                        .HasForeignKey("HddId");
+                        .HasForeignKey("HddId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AssetManagementSystemAPI.Model.RamType", "RamTypes")
                         .WithMany("AddAssets")
-                        .HasForeignKey("RamId");
+                        .HasForeignKey("RamId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("AssetTypes");
 
