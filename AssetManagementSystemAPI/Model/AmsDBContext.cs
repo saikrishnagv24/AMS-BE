@@ -30,6 +30,8 @@ namespace AssetManagementSystemAPI.Model
 
         public DbSet<AddAsset> AddAsset { get; set; }
 
+        public DbSet<Location> Location { get; set; }
+
         
     }
 }
