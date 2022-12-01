@@ -1,10 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AssetManagementSystemAPI.Model
 {
     public class Department
     {
+        public Department()
+        {
+            employees = new HashSet<Employees>();
+        }
         [Key]
 
         public int id { get; set; }
@@ -19,7 +25,8 @@ namespace AssetManagementSystemAPI.Model
 
         public bool DeleteStatus { get; set; }
 
-
+        [InverseProperty(nameof(Employees.Departments))]
+        public virtual ICollection<Employees> employees { get; set; }
 
     }
 }
