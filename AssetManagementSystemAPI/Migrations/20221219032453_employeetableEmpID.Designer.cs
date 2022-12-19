@@ -4,14 +4,16 @@ using AssetManagementSystemAPI.Model;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AssetManagementSystemAPI.Migrations
 {
     [DbContext(typeof(AmsDBContext))]
-    partial class AmsDBContextModelSnapshot : ModelSnapshot
+    [Migration("20221219032453_employeetableEmpID")]
+    partial class employeetableEmpID
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -151,7 +153,7 @@ namespace AssetManagementSystemAPI.Migrations
                     b.Property<DateTime>("CrteatedDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("DepartmentId")
+                    b.Property<int>("DepartmentId")
                         .HasColumnType("int");
 
                     b.Property<string>("EmployeeId")
@@ -319,7 +321,9 @@ namespace AssetManagementSystemAPI.Migrations
                 {
                     b.HasOne("AssetManagementSystemAPI.Model.Department", "Departments")
                         .WithMany("employees")
-                        .HasForeignKey("DepartmentId");
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("AssetManagementSystemAPI.Model.Location", "Locations")
                         .WithMany("employees")

@@ -13,6 +13,8 @@ namespace AssetManagementSystemAPI.Model
         [Key]
         public int Id { get; set; }
 
+        public string EmployeeId { get; set; }
+
         [StringLength(220)]
         public string Name { get; set; }
 
@@ -20,7 +22,7 @@ namespace AssetManagementSystemAPI.Model
 
         public int? LocationId { get; set; }
 
-        public int DepartmentId { get; set; }
+        public int? DepartmentId { get; set; }
 
         public bool status { get; set; }
         public DateTime CrteatedDate { get; set; }

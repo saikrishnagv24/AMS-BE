@@ -3,6 +3,7 @@ using AssetManagementSystemAPI.Interfaces.AddAssetInterface;
 using AssetManagementSystemAPI.Interfaces.AssetTypeInterface;
 using AssetManagementSystemAPI.Interfaces.CpuInterface;
 using AssetManagementSystemAPI.Interfaces.DepartmentInterface;
+using AssetManagementSystemAPI.Interfaces.EmployeeInterface;
 using AssetManagementSystemAPI.Interfaces.HarddiscInterface;
 using AssetManagementSystemAPI.Interfaces.LocationInterface;
 using AssetManagementSystemAPI.Interfaces.LoginInterface;
@@ -13,6 +14,7 @@ using AssetManagementSystemAPI.Services.AddAssetServices;
 using AssetManagementSystemAPI.Services.AssetTypeServices;
 using AssetManagementSystemAPI.Services.CpuTypeServices;
 using AssetManagementSystemAPI.Services.DepartmentServices;
+using AssetManagementSystemAPI.Services.EmployeeServices;
 using AssetManagementSystemAPI.Services.HarddiscServices;
 using AssetManagementSystemAPI.Services.LocationServices;
 using AssetManagementSystemAPI.Services.LoginServices;
@@ -77,6 +79,7 @@ namespace AssetManagementSystemAPI
             services.AddScoped<IHarddiscInterface, HarddiscServices>();
             services.AddScoped<IAddAssetInterface, AddAssetService>();
             services.AddScoped<ILocationInterface, LocationService>();
+            services.AddScoped<IEmployeeInterface, EmployeeService>();
 
 
 
