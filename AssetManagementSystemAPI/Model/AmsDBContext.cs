@@ -32,6 +32,7 @@ namespace AssetManagementSystemAPI.Model
 
         public DbSet<Location> Location { get; set; }
 
+        public DbSet<Employees> Employees { get; set; }
         
     }
 }
