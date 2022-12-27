@@ -25,6 +25,10 @@ namespace AssetManagementSystemAPI.Services.AddAssetServices
         public List<AddAsset> GetAddAssetData()
         {
             var data = from AddAsset in context.AddAsset
+                       join assetType in context.AssetType on AddAsset.AssetTypeId equals assetType.Id
+                       join cpyType in context.CpuType on AddAsset.CpuId equals cpyType.Id
+                       join hddType in context.HarddiscType on AddAsset.HddId equals hddType.Id
+                       where AddAsset.Status != false
                        select new AddAsset
                        {
                            Id = AddAsset.Id,
@@ -38,8 +42,6 @@ namespace AssetManagementSystemAPI.Services.AddAssetServices
                            Remark=AddAsset.Remark
                        };
             return data.ToList();
-
-
         }
     }
 }
