@@ -1,4 +1,5 @@
-﻿using AssetManagementSystemAPI.Interfaces.AddAssetInterface;
+﻿using AssetManagementSystemAPI.DTO;
+using AssetManagementSystemAPI.Interfaces.AddAssetInterface;
 using AssetManagementSystemAPI.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -28,10 +29,34 @@ namespace AssetManagementSystemAPI.Controllers.AddAssetController
 
         [HttpGet]
         [Route("GetAddAsset")]
-        public List<AddAsset> getAddAsset()
+        public List<AddAssetDTO> getAddAsset()
         {
            var data = addAssetInterface.GetAddAssetData();
            return data;
+        }
+
+        [HttpPut]
+        [Route("DeleteAddAsset/{id}")]
+        public void DeleteEmployee(int id)
+        {
+            addAssetInterface.deleteAsset(id);
+        }
+
+
+        [HttpGet]
+        [Route("GetEditAsset/{id}")]
+        public AddAsset GetEditEmployees(int id)
+        {
+            var editEmployee = addAssetInterface.GetEditAsset(id);
+            return editEmployee;
+        }
+
+
+        [HttpPut]
+        [Route("EditAddAssetForm")]
+        public void EditAddAssetForm(AddAsset data)
+        {
+            addAssetInterface.editAddAssetForm(data);
         }
     }
 }
